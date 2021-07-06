@@ -1,0 +1,322 @@
+.body-pg-1 {
+    /*background-color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    background-image: url('img/fundo-index-4.jpg');*/
+    background: -webkit-gradient(linear, left top, right top, from(rgb(209, 214, 207)), to(#f6fcf5)) no-repeat;
+    background: -moz-linear-gradient(left, #CCCCCC, #000000);
+    background-attachment: fixed;
+    backdrop-filter: drop-shadow(4px 4px 10px black);
+    background-size: cover;
+    position: solid;
+    backdrop-filter: blur(0.5px);
+    font-size: 1rem;
+}
+
+
+/*.ofusca
+{
+    background-color: rgba(63, 58, 58, 0.1);
+}*/
+
+.navsuperior {
+    border-bottom: 1px solid #5a5e5b;
+}
+
+.gradient-green {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(209, 214, 207)), to(#f6fcf5)) no-repeat;
+    background: -moz-linear-gradient(left, #CCCCCC, #000000);
+    background-attachment: scroll;
+    filter: progid: DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#CCCCCC', EndColorStr='#000000');
+}
+
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
+
+.logo-hortibook {
+    width: 20rem;
+}
+
+.version {
+    margin-top: 2.5em;
+    font-size: 1.5vh;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+    /*font-weight: bold;*/
+}
+
+.conteudo2 {
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+    /*font-weight: bold;*/
+}
+
+.DivEsBody {
+    /*float: left;*/
+    width: 95vh;
+    height: 100vh;
+}
+
+.DivDiBody {
+    width: 75vh;
+    height: 120vh;
+    /*margin-left: 62%;
+    margin-right: 4%;
+    float: left;*/
+}
+
+.formulario-contato {
+    width: 28vh;
+    margin-top: 7rem;
+}
+
+.form_log_cad {
+    width: 55vh;
+}
+
+.input-type3 {
+    width: 100%;
+}
+
+.input-type1 {
+    width: 200%;
+}
+
+.input-type2 {
+    width: 200%;
+}
+
+.img1 {
+    width: 35vh;
+    height: 35vh;
+}
+
+.img2 {
+    width: 28vh;
+    height: 28vh;
+}
+
+.img3 {
+    width: 25vh;
+    height: 25vh;
+}
+
+.img4 {
+    width: 21vh;
+    height: 21vh;
+}
+
+.name_user {
+    font-size: 1.12em;
+}
+
+.img5 {
+    width: 50vh;
+    height: 65vh;
+}
+
+.marketing-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65vh;
+}
+
+.form-contat {
+    width: 110vh;
+    margin-top: 25rem;
+    /*position: absolute;
+    margin-left: 4%;*/
+}
+
+.info-empresa {
+    width: 50vh;
+    margin-top: 100vh;
+    /*margin-left: 67%;
+    margin-right: 4%;*/
+}
+
+.marketing {
+    width: 65vh;
+    /*margin-right: 50%;*/
+}
+
+.marketing-text {
+    width: 60vh;
+    text-align: justify;
+}
+
+.text {
+    text-align: center;
+}
+
+.help-text {
+    font-size: 1.12em;
+    text-align: justify;
+}
+
+.help-text2 {
+    width: 60vh;
+    text-align: justify;
+}
+
+.help {
+    text-align: center;
+}
+
+.help-table {
+    width: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 5vh;
+}
+
+.help-table-td {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Biografia-Da-Empresa {
+    width: 120vh;
+    margin-left: 16%;
+}
+
+.help-img {
+    border: 2px solid red;
+}
+
+.info-help {
+    text-align: left!important;
+    text-align: center;
+}
+
+.table-dados {
+    border-collapse: separate;
+    border-spacing: 8px 8px;
+    border-color: grey;
+    color: #212529;
+    margin-bottom: 1rem;
+    margin-top: 7rem;
+    width: 20vh;
+}
+
+
+/*.email-log
+{
+    float: left;
+    margin-right: 5%;
+}
+
+.senha-log
+{
+    float: left;
+}*/
+
+.email-log {
+    width: 10%;
+    float: left;
+    margin-right: 0.5%;
+}
+
+.senha-log {
+    width: 10%;
+    float: left;
+    margin-right: 0.5%;
+}
+
+.check1 {
+    position: absolute;
+}
+
+.check2 {
+    margin-left: 25%;
+}
+
+.ListaClientes {
+    text-align: center;
+    border-top: 15px;
+    border-collapse: collapse;
+    border-color: grey;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.line {
+    width: 100%;
+}
+
+.btn-anuncio {
+    text-decoration: none!important;
+    background-color: inherit!important;
+    color: black!important;
+}
+
+.btn-dados {
+    width: 3vw;
+}
+
+.link-formato {
+    color: #230deb!important;
+}
+
+.sem-formato {
+    text-decoration: none!important;
+    background-color: inherit!important;
+    color: #343a40!important;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:focus,
+a:active {
+    text-decoration: none;
+    background-color: inherit;
+    color: white;
+}
+
+footer {
+    background-color: #343a40!important;
+    color: blanchedalmond;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.aside {
+    width: 200px;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
